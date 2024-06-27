@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+//@import 'bootstrap/scss/bootstrap';
+
+$colore_testo_menu: #ff9000;
+
+@use 'bootstrap'with ($navbar-light-hover-color: $colore_testo_menu)
